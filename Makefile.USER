@@ -1,0 +1,17 @@
+################################################################################
+# ebook/Makefil.USER
+#
+# User settings imported by Makefile
+# Defaults are noted per variable.
+################################################################################
+
+# DEFAULT: current directory
+CWD:=$(shell basename $$PWD)
+BOOK_NAME:=${CWD}
+
+# DEFAULT = (current year - 2025 + 1)
+MAJOR_VERSION=
+
+#DEFAULT = current month
+MINOR_VERSION=
+

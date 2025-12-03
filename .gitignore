@@ -1,0 +1,8 @@
+output
+.DS_Store
+
+# build artifacts
+Gemfile.lock
+*~
+**/.#*
+**/#*
