@@ -127,6 +127,7 @@ class Bluesky():
         
         with Path(self.args.postfile).open("r") as post_file:
             self.raw_posts = json.load(post_file)
+        self.raw_posts.reverse()
         return
 
     def post_date(self, post):
@@ -156,7 +157,7 @@ class Bluesky():
         post_dates = list(set(x[:x.find('T')] for x in post_dates))
         post_dates.sort()
         logger.debug(f"Num post dates: {len(post_dates)}") 
-        logger.debug(json.dumps(post_dates, indent=2))
+        # logger.debug(json.dumps(post_dates, indent=2))
         file_text = ""
         
         current_date = self.post_date(self.raw_posts[0])
