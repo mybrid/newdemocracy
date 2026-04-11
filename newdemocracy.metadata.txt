@@ -3,7 +3,7 @@ Mybrid Wonderful, Irreni Society
 :doctype: book
 :docinfo:
 :toc:
-:toclevels: 2
+:toclevels: 3
 :pagenums:
 :front-cover-image: image:book/cover.png[width=1050,height=1600]
 :icons: font
@@ -11,4 +11,3 @@ Mybrid Wonderful, Irreni Society
 {PREAMBLE}
 
 {CHAPTERS}
-
