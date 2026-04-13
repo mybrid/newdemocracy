@@ -48,12 +48,12 @@ PREAMBLE:=\
 # Chapters in order. To reorder chapters just change this list order.
 NOT_USED:=\
 	book/chapters/glossary.asc \
-	book/chapters/desire.asc \
 	book/chapters/war.asc
 
 CHAPTERS:=\
 	book/chapters/biography.asc \
-	book/chapters/introduction.asc
+	book/chapters/introduction.asc \
+	book/chapters/desire.asc
 
 # book/chapters/glossary.asc:book/chapters/introduction.asc:book/chapters/desire.asc:book/chapters/war.asc
 
