@@ -53,7 +53,8 @@ NOT_USED:=\
 CHAPTERS:=\
 	book/chapters/biography.asc \
 	book/chapters/introduction.asc \
-	book/chapters/desire.asc
+	book/chapters/overview-old-democracy-comparison.asc \
+	book/chapters/overview-infinity-and-beyond.asc
 
 # book/chapters/glossary.asc:book/chapters/introduction.asc:book/chapters/desire.asc:book/chapters/war.asc
 
