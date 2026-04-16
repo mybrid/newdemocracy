@@ -56,9 +56,9 @@ CHAPTERS:=\
 	book/chapters/overview-old-democracy-comparison.asc \
 	book/chapters/overview-infinity-and-beyond.asc \
         book/chapters/overview-the-personal-touch.asc \
-        book/chapters/overview-low-confidence-science.asc
+        book/chapters/overview-low-confidence-science.asc \
+        book/chapters/overview-politically-incorrect-vs-rights.asc
 
-# book/chapters/glossary.asc:book/chapters/introduction.asc:book/chapters/desire.asc:book/chapters/war.asc
 
 default: epub
 
