@@ -30,6 +30,7 @@ endif
 DATE_VERSION=$(shell date +"%Y-%m-%d")
 
 VERSION_PARAMS:=\
+--attribute allow-uri-read \
 --attribute revnumber='${MAJOR_VERSION}.${MINOR_VERSION}' \
 --attribute revdate='${DATE_VERSION}'
 
@@ -57,10 +58,11 @@ CHAPTERS:=\
 	book/chapters/overview-infinity-and-beyond.asc \
         book/chapters/overview-the-personal-touch.asc \
         book/chapters/overview-low-confidence-science.asc \
-        book/chapters/overview-politically-incorrect-vs-rights.asc
+        book/chapters/overview-politically-incorrect-vs-rights.asc \
+        book/chapters/handbook-fellowship-of-the-ring.asc
 
 
-default: epub
+default: products
 
 test:
 	source ~/etc/ruby_bashrc; which bundle
@@ -78,3 +80,5 @@ epub:
 html:
 	export BUILD_PARAMS="-a data-uri "; make pub
 	${BUILD_EXEC} htmlproofer ${BOOK_NAME}.html
+
+products: epub html
