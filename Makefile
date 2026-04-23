@@ -59,6 +59,7 @@ CHAPTERS:=\
         book/chapters/overview-the-personal-touch.asc \
         book/chapters/overview-low-confidence-science.asc \
         book/chapters/overview-politically-incorrect-vs-rights.asc \
+        book/chapters/overview-metaverse.asc \
         book/chapters/handbook-fellowship-of-the-ring.asc
 
 
