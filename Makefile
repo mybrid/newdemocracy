@@ -60,7 +60,9 @@ CHAPTERS:=\
         book/chapters/overview-low-confidence-science.asc \
         book/chapters/overview-politically-incorrect-vs-rights.asc \
         book/chapters/overview-metaverse.asc \
-        book/chapters/handbook-fellowship-of-the-ring.asc
+        book/chapters/handbook-fellowship-of-the-ring.asc \
+	book/chapters/handbook-day-one.asc \
+        book/chapters/handbook-direct-trade.asc
 
 
 default: products
