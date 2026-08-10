@@ -53,9 +53,9 @@ NOT_USED:=\
 
 CHAPTERS:=\
 	book/chapters/biography.asc \
-	book/chapters/introduction.asc \
-	book/chapters/new-democracy-introduction.asc \
-	book/chapters/overview-unending-frontier.asc \
+	book/chapters/introduction-expectations.asc \
+	book/chapters/introduction-culture.asc \
+	book/chapters/introduction-unending-frontier.asc \
 	book/chapters/overview-old-democracy-comparison.asc \
 	book/chapters/overview-infinity-and-beyond.asc \
         book/chapters/overview-the-personal-touch.asc \
