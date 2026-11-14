@@ -52,7 +52,8 @@ NOT_USED:=\
 	book/chapters/war.asc
 
 CHAPTERS:=\
-	book/chapters/biography.asc \
+	book/chapters/introduction-love.asc \
+	book/chapters/introduction-vote-bank.asc \
 	book/chapters/introduction-expectations.asc \
 	book/chapters/introduction-culture.asc \
 	book/chapters/introduction-unending-frontier.asc \
@@ -64,7 +65,8 @@ CHAPTERS:=\
         book/chapters/overview-metaverse.asc \
         book/chapters/handbook-fellowship-of-the-ring.asc \
 	book/chapters/handbook-day-one.asc \
-        book/chapters/handbook-direct-trade.asc
+        book/chapters/handbook-direct-trade.asc \
+	book/chapters/biography.asc
 
 
 default: products
